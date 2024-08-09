@@ -1,0 +1,14 @@
+{
+  "name": "contact",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}

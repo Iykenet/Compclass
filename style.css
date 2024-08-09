@@ -1,0 +1,18 @@
+.cta-info{
+padding: 3rem;
+margin: 1rem 0;
+}
+
+.cta-info__list{
+    position: relative;
+    list-style-type: none;
+    display: block;
+}
+
+.email,.tel{
+    width: 80%;   
+}
+
+.date{
+    width: 40%;
+}

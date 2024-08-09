@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <section id="contact" class="get-started">
+        <div class="container">
+            <div class="row text-center">
+                <h1 class="display-3 fw-bold text-capitalize">Contact Form</h1>
+                <div class="heading-line"></div>
+                <p class="lh-lg">We primarily use Element to access our media and get all records and information from our guest. Find all the official rooms and make your recommendation and contributions </p>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-6 bg-info text-white">
+                    <div class="cta-info w-100">
+                        <h4 class="display-4 fw-bold">100% Satisfaction Guaranteed</h4>
+                        <p class="lh-lg">Oceana is an international organization with offices in North America, Central America, South America, Europe and Asia. Find the location, address, and contact information for Oceana offices, including Oceana headquarters for each continent.</p>
+                        <h3 class="display-3--brief">visit our Office</h3>
+                        <p class="lh-lg">1025 Connecticut Ave., NW, Suite #200 <br>
+                        Washington, DC 20036 USA <br>
+                        Phone: +1 (202) 833-3900 <br>
+                        Fax: +1 (202) 833-2070 <br>
+                        Toll-free: +1 (877) 7-OCEANA <br>
+                        General Inquiries: info@aquarium.org <br> <br>
+                        Donation Inquiries: you can obtain copies of your donation receipts, manage your recurring donation, and change your mailing or email address in our Wavemaker Portal at Aquarium. If you need additional assistance regarding donations, please contact us at 202-xxx-xxxx or email wavemaker@aquarium.org</p>
+                        <ul class="cta-info__list">
+                            <li>We'll prepare the proposal.</li>
+                            <li>We'll discuss it together.</li>
+                            <li>let's start the discussion.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 shadow p-3">
+                    <div class="form w-100 pb-2">
+                        <h4 class="display-3--title mb-5"></h4>
+
+                        <form action="mailto:masterappstar330@gmail.com" enctype="text/plain" method="POST" class="row" onsubmit="validateInput()">
+                            <div class="col-12 col-lg-6 text-center">
+                                <label for="Name">Your First Name</label>
+                                <div class="mb-3 ">
+                                    <input type="text" name="yourName" id="firstName" placeholder="enter your first name" class="text-center shadow form-control">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 text-center">
+                                <label for="Name">Your Last Name</label>
+                                <div class="mb-3">
+                                    <input type="text" id="lastName" name="yourName"  placeholder="enter your last name" class="text-center shadow form-control">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="text-center">
+                                    <label for="Email">Your Email:</label>
+                                    <div class="mb-3">
+                                        <input type="email" id="email" placeholder="enter your email" class="email form-control m-auto text-center shadow">
+                                    </div>
+                                </div>
+      
+                               <div class="text-center">
+                                   <label for="Phone Number">Phone Number:</label>
+                                    <div class="mb-3">
+                                        <input type="tel" id="phoneNumber" placeholder="enter your number" class="tel form-control m-auto text-center shadow">
+                                    </div>
+                               </div>
+                            </div>
+
+                        <div class="text-center">
+                            <label for="date">Date</label>
+                            <div class="mb-3">
+                                <input type="date" class="text-center date form-control shadow m-auto">
+                            </div>
+
+                        </div>
+                        <div class="text-center">
+                            <label for="message" id="message" name="yourMessage">Your message</label>
+                            <textarea name="name" cols="30" rows="10" class="email m-auto form-control shadow"></textarea>
+                        </div>
+                        <div class="mt-3 ">
+                            <input type="submit" class="date shadow m-auto bg-info form-control text-white">
+                        </div>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
